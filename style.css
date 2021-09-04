@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400;1,500&display=swap");
+
+* {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  line-height: 1.5;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+html {
+  background: #5cdb95;
+  font-size: 62.5%;
+}
+
+header {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 8rem 2rem;
+  background: #379683;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 30rem;
+}
+
+header a {
+  color: #fff;
+}
+
+header .name {
+  text-transform: uppercase;
+}
+header .name span {
+  text-transform: uppercase;
+  color: #05386b;
+}
+
+header .nav a:hover {
+  letter-spacing: 0.2rem;
+  color: #05386b;
+}
+header .nav a {
+  display: block;
+  font-size: 2rem;
+  margin: 2rem 0rem;
+  text-align: center;
+}
+
+header .follow a {
+  margin: 0 0.7rem;
+  font-size: 2.5rem;
+}
+
+header .name {
+  font-size: 2.5rem;
+}
+header .follow a:hover {
+  color: #05386b;
+  letter-spacing: 0.2rem;
+}
